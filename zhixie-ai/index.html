@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智写AI - 国内领先的AI写作助手 | 智能写作、文章生成、免费改写</title>
+<meta name="keywords" content="AI写作,AI写作免费,AI写作助手,AI改写,AI生成文章,AI智能写作,AI帮写,文章生成器,AI论文,AI工具,AI文案,AI商业写作,AI学术写作,AI写作生成器">
+<meta name="description" content="智写AI(zhixie.ai) - 国内领先的AI写作助手与智能工具。专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。无论是学术写作还是商业文案，智写AI都能快速生成高质量内容，简化您的写作过程。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://zhixie.ai/">
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="智写AI - 国内领先的AI写作助手 | 智能写作、文章生成、免费改写">
+<meta property="og:description" content="专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。快速生成高质量内容，简化您的写作过程。">
+<meta property="og:image" content="https://zhixie.ai/og-image.png">
+<meta property="og:url" content="https://zhixie.ai/">
+<meta property="og:site_name" content="智写AI">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="智写AI - 国内领先的AI写作助手">
+<meta name="twitter:description" content="专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。">
+<meta name="twitter:image" content="https://zhixie.ai/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "智写AI",
+  "url": "https://zhixie.ai/",
+  "description": "国内领先的AI写作助手与智能工具",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://zhixie.ai/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "智写AI",
+  "url": "https://zhixie.ai/",
+  "logo": "https://zhixie.ai/logo.png",
+  "description": "国内领先的AI写作助手与智能工具",
+  "foundingDate": "2024",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "support@zhixie.ai",
+    "availableLanguage": ["Chinese"]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "智写AI支持哪些写作类型？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "智写AI支持学术论文、商业文案、新媒体内容、工作汇报、创意写作等200+写作场景，覆盖20+种职位的真实写作需求。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "AI生成的文章会被检测出来吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "智写AI内置降AIGC痕迹功能，支持将AI生成内容转化为更自然的表达风格。配合我们的改写润色工具，可有效降低被主流检测平台识别的风险。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何开始使用智写AI？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "只需注册账号即可免费开始使用。输入您的写作需求或关键词，AI将在60秒内生成高质量内容。支持大纲编辑、内容修改和格式排版。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "智写AI的定价方案是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "我们提供免费版、专业版和企业版三种方案。免费版支持基础写作功能，专业版解锁全部写作模板和高级功能，企业版提供API接入和团队协作功能。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "生成的内容是否原创？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "智写AI基于深度学习模型生成全新内容，每次生成的结果都是独一无二的。我们建议用户根据实际需求对生成内容进行审核和个性化调整。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar" role="navigation" aria-label="主导航">
+  <div class="container">
+    <a href="#" class="navbar-logo" aria-label="智写AI首页">
+      <span class="navbar-logo-icon">Z</span>
+      智写AI
+    </a>
+    <div class="navbar-links">
+      <a href="#features">功能</a>
+      <a href="#how-it-works">使用流程</a>
+      <a href="#pricing">定价</a>
+      <a href="#faq">常见问题</a>
+    </div>
+    <div class="navbar-actions">
+      <button class="btn btn-primary">免费试用</button>
+    </div>
+    <button class="navbar-toggle" id="navbarToggle" aria-label="切换菜单" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="navbar-mobile" id="navbarMobile">
+    <a href="#features">功能</a>
+    <a href="#how-it-works">使用流程</a>
+    <a href="#pricing">定价</a>
+    <a href="#faq">常见问题</a>
+    <button class="btn btn-primary" style="width:100%;margin-top:8px">免费试用</button>
+  </div>
+</nav>
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container">
+    <h1 id="hero-title">让AI成为你的<span>写作超能力</span></h1>
+    <p>工作汇报、论文大纲、商业文案、新媒体内容等200+真实场景一键生成。智写AI，专业人士的一站式AI写作工具。</p>
+    <div class="hero-buttons">
+      <button class="btn btn-primary btn-lg">立即开始AI写作</button>
+      <button class="btn btn-outline btn-lg">了解更多</button>
+    </div>
+    <div class="hero-trust">
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">1,000,000+</div>
+          <div class="hero-stat-label">累积使用用户</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">750,000+</div>
+          <div class="hero-stat-label">持续支持用户</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">200+</div>
+          <div class="hero-stat-label">写作场景覆盖</div>
+        </div>
+      </div>
+      <div class="hero-decorations">
+        <span class="hero-decoration">&#10003; 60秒快速生成</span>
+        <span class="hero-decoration">&#10003; 支持20+种职位</span>
+        <span class="hero-decoration">&#10003; 学术标准格式</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section features" id="features" aria-labelledby="features-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="features-title">全能型AI写作工具</h2>
+      <p>覆盖学术、商业、创意等全场景写作需求，让每一次落笔都充满灵感</p>
+    </div>
+    <div class="features-grid">
+      <article class="feature-card" aria-labelledby="feat-1">
+        <div class="feature-card-icon">&#9997;</div>
+        <h3 id="feat-1">AI文章撰写</h3>
+        <p>深度学习20+种职位的200+工作场景真实案例。修改简历、撰写公文、工作心得？轻松无压力！</p>
+      </article>
+      <article class="feature-card" aria-labelledby="feat-2">
+        <div class="feature-card-icon">&#128214;</div>
+        <h3 id="feat-2">AI论文辅助</h3>
+        <p>千字大纲免费生成，支持大纲可编辑、可加图表。万字论文+学术标准格式，写作从未如此简单高效！</p>
+      </article>
+      <article class="feature-card" aria-labelledby="feat-3">
+        <div class="feature-card-icon">&#128202;</div>
+        <h3 id="feat-3">AI PPT生成</h3>
+        <p>一键生成免费大纲，配套无脑照着读的演讲稿。17+场景定制PPT模板，3分钟搞定半天的工作。</p>
+      </article>
+      <article class="feature-card" aria-labelledby="feat-4">
+        <div class="feature-card-icon">&#128274;</div>
+        <h3 id="feat-4">降AIGC痕迹</h3>
+        <p>2分钟降至安全线，适用于知网、维普、万方检测平台。检测不过全额退款，让您不再有后顾之忧。</p>
+      </article>
+      <article class="feature-card" aria-labelledby="feat-5">
+        <div class="feature-card-icon">&#128260;</div>
+        <h3 id="feat-5">文章降重</h3>
+        <p>89%到10%查重率只要两分钟。支持三大平台检测，让你的查重率无影无踪，检测不过全额退款。</p>
+      </article>
+      <article class="feature-card" aria-labelledby="feat-6">
+        <div class="feature-card-icon">&#9889;</div>
+        <h3 id="feat-6">AI新媒体爆款</h3>
+        <p>百万博主都在用的新媒体神器。分析千份爆款文案，助你一分钟拿下爆款笔记，轻松get爆款公式。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section how-it-works" id="how-it-works" aria-labelledby="steps-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="steps-title">三步开启AI写作</h2>
+      <p>无需复杂操作，简单三步即可获得高质量写作内容</p>
+    </div>
+    <div class="steps" aria-label="使用步骤">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>输入写作需求</h3>
+        <p>输入标题、关键词或写作类型，也可以上传参考资料。AI会自动理解您的写作意图。</p>
+        <span class="step-arrow" aria-hidden="true">&#8594;</span>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>AI智能生成</h3>
+        <p>60秒内生成详细大纲，支持添加、修改、删除内容。确保内容始终符合您的写作思路和风格。</p>
+        <span class="step-arrow" aria-hidden="true">&#8594;</span>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>导出 & 发布</h3>
+        <p>一键导出为标准格式，支持Word、PDF等多种格式。内容可直接发布或提交，无缝融入工作流。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonials" id="testimonials" aria-labelledby="testimonials-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="testimonials-title">用户怎么说</h2>
+      <p>超过75万用户的持续信任与支持</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <blockquote cite="李同学">
+          <p>作为一名研究生，智写AI帮我节省了大量时间。从开题报告到文献综述，再到论文大纲，每一步都有AI辅助。尤其是千字大纲功能，输入关键词60秒就能生成非常详细的框架。</p>
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">李</div>
+          <div class="testimonial-info">
+            <h4>李同学</h4>
+            <p>某985高校研究生</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <blockquote cite="张经理">
+          <p>工作汇报、述职PPT这些曾经让我头疼的任务，现在几分钟就能搞定。智写AI很懂职场写作的套路，生成的内容结构清晰、重点突出，领导对我的汇报质量赞不绝口。</p>
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">张</div>
+          <div class="testimonial-info">
+            <h4>张经理</h4>
+            <p>互联网公司中层管理</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="pricing-title">选择适合你的方案</h2>
+      <p>从免费开始，随时升级解锁更多高级功能</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="pricing-card" aria-labelledby="plan-free">
+        <h3 id="plan-free">免费版</h3>
+        <p style="color:var(--color-text-secondary);margin-bottom:var(--spacing-sm)">体验AI写作的魅力</p>
+        <div class="pricing-price">
+          <span class="pricing-amount">0<span>/月</span></span>
+        </div>
+        <p class="pricing-period">永久免费</p>
+        <ul class="pricing-features">
+          <li>每日10次AI生成</li>
+          <li>基础写作模板</li>
+          <li>千字大纲生成</li>
+          <li>标准格式导出</li>
+        </ul>
+        <button class="btn btn-outline">免费开始</button>
+      </article>
+      <article class="pricing-card featured" aria-labelledby="plan-pro">
+        <div class="pricing-badge">最受欢迎</div>
+        <h3 id="plan-pro">专业版</h3>
+        <p style="color:var(--color-text-secondary);margin-bottom:var(--spacing-sm)">解锁全部高级功能</p>
+        <div class="pricing-price">
+          <span class="pricing-amount">¥29<span>/月</span></span>
+        </div>
+        <p class="pricing-period">年付 ¥19/月</p>
+        <ul class="pricing-features">
+          <li>无限次AI生成</li>
+          <li>全部200+写作模板</li>
+          <li>降AIGC痕迹功能</li>
+          <li>论文降重功能</li>
+          <li>PPT生成与演讲稿</li>
+          <li>优先客服支持</li>
+        </ul>
+        <button class="btn btn-primary">立即订阅</button>
+      </article>
+      <article class="pricing-card" aria-labelledby="plan-enterprise">
+        <h3 id="plan-enterprise">企业版</h3>
+        <p style="color:var(--color-text-secondary);margin-bottom:var(--spacing-sm)">团队协作与定制服务</p>
+        <div class="pricing-price">
+          <span class="pricing-amount">¥99<span>/月</span></span>
+        </div>
+        <p class="pricing-period">年付 ¥69/月</p>
+        <ul class="pricing-features">
+          <li>专业版全部功能</li>
+          <li>API接口接入</li>
+          <li>团队协作管理</li>
+          <li>专属写作模板定制</li>
+          <li>人工专家审核</li>
+          <li>7×24小时专属客服</li>
+        </ul>
+        <button class="btn btn-outline">联系销售</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="faq-title">常见问题</h2>
+      <p>关于智写AI，你可能想了解的都在这里</p>
+    </div>
+    <div class="faq-list" role="list">
+      <div class="faq-item" role="listitem">
+        <button id="faq-q1" class="faq-question" aria-expanded="false">
+          智写AI支持哪些写作类型？
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" role="region" aria-labelledby="faq-q1"><div class="faq-answer-content">智写AI支持学术论文、商业文案、新媒体内容、工作汇报、创意写作等200+写作场景，覆盖20+种职位的真实写作需求。无论是毕业论文、职称文章还是小红书笔记，都能一键生成高质量内容。</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button id="faq-q2" class="faq-question" aria-expanded="false">
+          AI生成的文章会被检测出来吗？
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" role="region" aria-labelledby="faq-q2"><div class="faq-answer-content">智写AI内置降AIGC痕迹功能，支持将AI生成内容转化为更自然的表达风格，适用于知网、维普、万方三大主流检测平台。配合我们的改写润色工具，可有效降低被检测的风险。如检测率高过15%，我们承诺全额退款。</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button id="faq-q3" class="faq-question" aria-expanded="false">
+          如何开始使用智写AI？
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" role="region" aria-labelledby="faq-q3"><div class="faq-answer-content">只需注册账号即可免费开始使用。输入您的写作需求或关键词，AI将在60秒内生成高质量大纲和正文内容。支持大纲编辑、内容修改和格式排版。专业版用户可解锁全部200+写作模板和高级功能。</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button id="faq-q4" class="faq-question" aria-expanded="false">
+          智写AI的定价方案是什么？
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" role="region" aria-labelledby="faq-q4"><div class="faq-answer-content">我们提供免费版、专业版（¥29/月）和企业版（¥99/月）三种方案。免费版支持基础写作功能，专业版解锁全部写作模板和高级功能如降AIGC痕迹与论文降重，企业版提供API接入和团队协作功能。年付可享更多优惠。</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <button id="faq-q5" class="faq-question" aria-expanded="false">
+          生成的内容是否原创？
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" role="region" aria-labelledby="faq-q5"><div class="faq-answer-content">智写AI基于深度学习模型生成全新内容，每次生成的结果都是独一无二的。我们建议用户根据实际需求对生成内容进行审核和个性化调整，以确保内容完全符合您的写作意图和风格要求。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-bottom" aria-labelledby="cta-title">
+  <div class="container">
+    <h2 id="cta-title">AI撰写 + 专家把控 = 写作超神</h2>
+    <p>加入超过100万用户的行列，体验AI写作带来的效率革命</p>
+    <div class="cta-bottom-buttons">
+      <button class="btn btn-cta-white btn-lg">免费开始使用</button>
+      <button class="btn btn-outline-white btn-lg">预约演示</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="navbar-logo">
+          <span class="navbar-logo-icon">Z</span>
+          智写AI
+        </a>
+        <p>国内领先的AI写作助手与智能工具。专为提高写作效率而设计，让每一次写作都充满灵感与效率。</p>
+      </div>
+      <div class="footer-col">
+        <h4>产品</h4>
+        <ul>
+          <li><a href="#features">AI写作</a></li>
+          <li><a href="#features">AI论文辅助</a></li>
+          <li><a href="#features">AI PPT生成</a></li>
+          <li><a href="#features">降AIGC痕迹</a></li>
+          <li><a href="#features">文章降重</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>支持</h4>
+        <ul>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#faq">使用教程</a></li>
+          <li><a href="#pricing">定价方案</a></li>
+          <li><a href="#">联系客服</a></li>
+          <li><a href="#">反馈建议</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>公司</h4>
+        <ul>
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">隐私政策</a></li>
+          <li><a href="#">服务条款</a></li>
+          <li><a href="#">用户协议</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 智写AI. All rights reserved.</span>
+      <span><a href="#">ICP备案号: 粤ICP备XXXXXXXX号</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.getElementById('navbar');
+  const toggle = document.getElementById('navbarToggle');
+  const mobile = document.getElementById('navbarMobile');
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  window.addEventListener('scroll', function() {
+    navbar.classList.toggle('scrolled', window.scrollY > 10);
+  });
+
+  toggle.addEventListener('click', function() {
+    const isOpen = !mobile.classList.contains('open');
+    mobile.classList.toggle('open', isOpen);
+    toggle.classList.toggle('active', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+
+  document.querySelectorAll('.navbar-mobile a, .navbar-mobile .btn').forEach(function(el) {
+    el.addEventListener('click', function() {
+      mobile.classList.remove('open');
+      toggle.classList.remove('active');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  faqItems.forEach(function(item) {
+    const btn = item.querySelector('.faq-question');
+    btn.addEventListener('click', function() {
+      const wasActive = item.classList.contains('active');
+      faqItems.forEach(function(i) {
+        i.classList.remove('active');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!wasActive) {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
